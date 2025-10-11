@@ -1,0 +1,47 @@
+.image {
+  background-color: black;
+  border-radius: 45%;
+  height: 50px;
+  width: 50px;
+}
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+body {
+  background-color: black;
+}
+
+.but {
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 60px;
+  width: 120px;
+  height: 120px;
+  margin-left:20px;
+}
+.winner {
+  font-size: 30px;
+  font-weight: bold;
+
+  font-family: arial, Helvetica, sans-serif;
+}
+.size {
+  height: 50px;
+  width: 50px;
+}
+.Choices {
+  margin-bottom: 50px;
+}
+.reset {
+  height: 40px;
+  width: 150px;
+  color: burlywood;
+  cursor: pointer;
+}
+.buttons{
+    margin-top:10%;
+    
+}

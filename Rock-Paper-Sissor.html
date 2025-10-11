@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <link rel="stylesheet" href="Rock-Paper-Sissor.css">
+     
+     
+     
+  </head>
+  <body>
+    <center>
+    <h1 style="color:white">Rock Paper Sissor Game</h1>
+   
+    <div class="buttons">
+      <button class="but" onclick="userchoice(computer(),'Rock')"><img src="Rock-emoji.png" class="image"></button>
+
+      <button
+        onclick="
+       
+          userchoice(computer(),'Paper') 
+    
+        "
+        class="but"
+      >
+       <img src="Paper-emoji.png" class="image">
+      </button>
+      <button class="but"
+        onclick="
+          userchoice(computer(),'Sissor')
+        "
+      >
+       <img src="Sissor-emoji.png" class="image">
+      </button>
+     
+    </div>
+    <P class="winner">Winner</p>
+    <p class="Choices"></p>
+   
+       <p class="Result"></p>
+        <button class= "reset"onclick="Reset()">Reset</button>
+
+    <script src="Rock-Paper-Sissor.js"></script>
+      
+   </center>
+  </body>
+</html>
