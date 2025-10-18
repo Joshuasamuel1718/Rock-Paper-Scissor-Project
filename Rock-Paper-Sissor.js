@@ -12,6 +12,30 @@ function Reset() {
 
   localStorage.removeItem("score");
 }
+let inter;
+function play()
+{
+  let added=document.querySelector('.Autoplay');
+  if(added.classList.contains('added'))
+  {
+     clearInterval(inter);
+     added.classList.remove('added');
+  }
+  else{
+    added.classList.add('added')
+ 
+  inter= setInterval(function()
+{ 
+userchoice(computer(),computer())
+added.classList.add('added')
+},2000)
+
+  }
+
+
+
+
+}
 
 function computer() {
   let rand = Math.random();
